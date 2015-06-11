@@ -1,0 +1,33 @@
+PODS:
+  - Brightcove-Player-SDK (4.3.3)
+  - RCTBrightcovePlayer (0.0.1):
+    - Brightcove-Player-SDK
+  - React (0.5.0):
+    - React/Core (= 0.5.0)
+  - React/Core (0.5.0)
+  - React/RCTNetwork (0.5.0):
+    - React/Core
+  - React/RCTText (0.5.0):
+    - React/Core
+  - React/RCTWebSocket (0.5.0):
+    - React/Core
+
+DEPENDENCIES:
+  - RCTBrightcovePlayer (from `../`)
+  - React (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  RCTBrightcovePlayer:
+    :path: "../"
+  React:
+    :path: "../node_modules/react-native"
+
+SPEC CHECKSUMS:
+  Brightcove-Player-SDK: a66b890fe7b3f75955c6ff536ebaba51d55952ee
+  RCTBrightcovePlayer: 6ca44cc8c383008d9c2b4a914a725906e265cbc0
+  React: c9789af172f84013c14ac8ffdc41fb6ce1ba5307
+
+COCOAPODS: 0.37.2

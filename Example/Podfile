@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+react_opts = { :path => '../node_modules/react-native' }
+
+pod 'React', react_opts
+pod 'React/RCTText', react_opts
+pod 'React/RCTNetwork', react_opts
+pod 'React/RCTWebSocket', react_opts
+
+pod 'RCTBrightcovePlayer', :path => '../'

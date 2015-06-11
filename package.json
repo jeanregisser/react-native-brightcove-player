@@ -1,0 +1,24 @@
+{
+  "name": "react-native-brightcove-player",
+  "version": "0.0.1",
+  "description": "<BrightcovePlayer /> component for react-native",
+  "main": "Lib/BrightcovePlayer.js",
+  "author": "Jean Regisser <jean.regisser@gmail.com> (https://github.com/jeanregisser)",
+  "keywords": [
+    "react-native",
+    "brightcove",
+    "player",
+    "video"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeanregisser/react-native-brightcove-player.git"
+  },
+  "dependencies": {
+    "react-native": "^0.5.0"
+  }
+}
